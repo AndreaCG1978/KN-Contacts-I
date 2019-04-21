@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
-
 import android.Manifest;
 import android.app.AlertDialog;
 import android.content.ContentUris;
