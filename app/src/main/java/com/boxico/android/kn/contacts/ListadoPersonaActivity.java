@@ -141,7 +141,9 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 			try {
 				publishProgress(1);
 				DataBaseManager mDBManager = DataBaseManager.getInstance(me);
-				ConstantsAdmin.importarCSV(me, mDBManager);
+				Long val = params[1];
+				boolean recuperarLite = val == 1L;
+				ConstantsAdmin.importarCSV(me, mDBManager, recuperarLite);
 				//	ConstantsAdmin.contrasenia.setActiva(false);
 
 				//   ConstantsAdmin.procesarStringDatos(body, me);
@@ -1881,6 +1883,70 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 */
 
 
+	private void mostrarDialogImportarBackup(){
+	/*	AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage(R.string.mensaje_exportar_contactos)
+				.setCancelable(false)
+				.setPositiveButton(R.string.label_si, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						Long[] params = new Long[1];
+						params[0] = 1L;
+						dialog.cancel();
+						new ExportCSVTask().execute(params);    	           }
+				})
+				.setNegativeButton(R.string.label_no, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						dialog.cancel();
+					}
+				});
+		builder.show();*/
+
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage(R.string.mensaje_importar_contactos_csv)
+				.setCancelable(false)
+				.setPositiveButton(R.string.label_si, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						Long[] params = new Long[2];
+						params[0] = 1L;
+						params[1] = 0L;
+						dialog.cancel();
+						new ImportCSVTask().execute(params);
+					}
+				})
+				.setNegativeButton(R.string.label_no, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						dialog.cancel();
+					}
+				});
+		builder.show();
+
+	}
+
+
+	private void mostrarDialogImportarBackupLite(){
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage(R.string.mensaje_importar_contactos_csv)
+				.setCancelable(false)
+				.setPositiveButton(R.string.label_si, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						Long[] params = new Long[2];
+						params[0] = 1L;
+						params[1] = 1L;
+						dialog.cancel();
+						new ImportCSVTask().execute(params);
+					}
+				})
+				.setNegativeButton(R.string.label_no, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						dialog.cancel();
+					}
+				});
+		builder.show();
+
+	}
+
+
+
 
 	private void exportContacts(){
 		if(!personasMap.isEmpty()){
@@ -1954,7 +2020,7 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 	}
 
 
-	private void importContactosCSV(){
+	private void importContactosCSV(){/*
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage(R.string.mensaje_importar_contactos_csv)
 				.setCancelable(false)
@@ -1972,6 +2038,29 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 					}
 				});
 		builder.show();
+*/
+
+
+		if(!ConstantsAdmin.existeBackupKNContactsLite()) {
+			this.mostrarDialogImportarBackup();
+		}else {
+			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+			builder.setMessage(R.string.mensaje_seleccionar_origen_backup)
+					.setCancelable(false)
+					.setPositiveButton(R.string.app_name, new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int id) {
+							mostrarDialogImportarBackup();
+						}
+					})
+					.setNegativeButton(R.string.app_lite_name, new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int id) {
+							mostrarDialogImportarBackupLite();
+						}
+					});
+			builder.show();
+		}
+
+
 
 	}
 

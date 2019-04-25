@@ -171,5 +171,7 @@
     <string name="mensaje_sin_contactos"><![CDATA[Inizia la registrazione dei contatti da:]]></string>
     <string name="mensaje_enviar_contrasenia"><![CDATA[Invia la password all\'account di posta elettronica:]]></string>
     <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ Devi registrare una password per proteggere le tue categorie!]]></string>
+    <string name="app_lite_name">KN-ContactsLite</string>
+    <string name="mensaje_seleccionar_origen_backup">Se encontró una copia de seguridad de la version KN-ContactsLite, cual versión de copia de seguridad desea recuperar?</string>
 
 </resources>

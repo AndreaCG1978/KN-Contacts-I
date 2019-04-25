@@ -173,4 +173,6 @@
     <string name="mensaje_sin_contactos">Starten Sie die Registrierung von Kontakten von:</string>
     <string name="mensaje_enviar_contrasenia">Senden Sie das Passwort an das E-Mail-Konto:</string>
     <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ Sie müssen ein Passwort registrieren, um Ihre Kategorien zu schützen!]]></string>
+    <string name="app_lite_name">KN-ContactsLite</string>
+    <string name="mensaje_seleccionar_origen_backup">Se encontró una copia de seguridad de la version KN-ContactsLite, cual versión de copia de seguridad desea recuperar?</string>
 </resources>

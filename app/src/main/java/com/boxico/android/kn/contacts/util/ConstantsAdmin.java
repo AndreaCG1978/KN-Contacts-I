@@ -1087,6 +1087,7 @@ public class ConstantsAdmin {
 */
 	public static String mensaje = null;
 	public static final String folderCSV = "KN-Contacts";
+	public static final String folderCSVLite = "KN-ContactsLite";
 	private static final String fileCSV = ".kncontacts.csv";
 
 
@@ -1095,13 +1096,25 @@ public class ConstantsAdmin {
 		return file != null && file.exists();
 	}
 
-	public static void importarCSV(Activity context, DataBaseManager mDBManager){
+
+	public static boolean existsBackupFile(boolean recuperarLite){
+		File file = null;
+		if(!recuperarLite){
+			file = obtenerFileCSV();
+		}else{
+			file = obtenerFileCSVLite();
+		}
+		return file != null && file.exists();
+	}
+
+
+	public static void importarCSV(Activity context, DataBaseManager mDBManager, boolean recuperarLite){
 		String body;
 		File file;
 		mensaje = context.getString(R.string.error_importar_csv);
 		try {
-			if(existsBackupFile()) {
-				file = obtenerFileCSV();
+			if(existsBackupFile(recuperarLite)) {
+				file = obtenerFileCSV(recuperarLite);
 				body = obtenerContenidoArchivo(file);
 				procesarStringDatos(context, body, mDBManager);
 				mensaje = context.getString(R.string.mensaje_exito_importar_csv);
@@ -1584,6 +1597,16 @@ public class ConstantsAdmin {
 	}
 
 
+	public static boolean existeBackupKNContactsLite(){
+		String path = obtenerPath(ConstantsAdmin.folderCSVLite);
+		File dir = new File(path);
+		dir.mkdir();
+		String nombreArchivo = fileCSV;
+		File file = new File(dir.getPath(), nombreArchivo);
+		return file.exists();
+	}
+
+
 	private static void almacenarArchivo(String nombreArchivo, String body) throws IOException {
 		String path = obtenerPath(ConstantsAdmin.folderCSV);
 
@@ -1604,6 +1627,9 @@ public class ConstantsAdmin {
 		String path = Environment.getExternalStorageDirectory().toString();
 		return path + File.separator + nombreDirectorio;
 	}
+
+
+
 /*
 	public static String obtenerPath(){
 		String path = Environment.getExternalStorageDirectory().toString();
@@ -2267,6 +2293,43 @@ public class ConstantsAdmin {
 		*/
 
 		return obtenerFile(fileCSV);
+	}
+
+
+	private static File obtenerFileCSV(boolean recuperarLite){
+		/*File backup = null;
+		String path = obtenerPath(folderCSV);
+		backup = new File(path + File.separator + fileCSV);
+		return backup;
+		*/
+		File f = null;
+		if(!recuperarLite){
+			f = obtenerFile(fileCSV);
+		}else{
+			f = obtenerFileCSVLite();
+		}
+		return f;
+	}
+
+
+	private static File obtenerFileCSVLite(){
+		/*File backup = null;
+		String path = obtenerPath(folderCSV);
+		backup = new File(path + File.separator + fileCSV);
+		return backup;
+		*/
+
+		return obtenerFileLite(fileCSV);
+	}
+
+
+	private static File obtenerFileLite(String fileName){
+
+		String path = obtenerPath(ConstantsAdmin.folderCSVLite);
+
+		File dir = new File(path);
+		dir.mkdir();
+		return new File(dir.getPath(), fileName);
 	}
 
 

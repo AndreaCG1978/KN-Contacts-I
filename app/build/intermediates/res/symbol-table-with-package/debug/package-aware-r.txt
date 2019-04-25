@@ -326,6 +326,7 @@ layout row_item
 layout row_item_alta
 layout row_personas
 layout splash
+string app_lite_name
 string app_name
 string cat_Amigo
 string cat_Cliente
@@ -434,6 +435,7 @@ string mensaje_leyenda_registrar_contrasenia
 string mensaje_no_hay_contactos
 string mensaje_pregunta_importar_contacto
 string mensaje_registre_contrasenia
+string mensaje_seleccionar_origen_backup
 string mensaje_seleccione_actividad_categoria
 string mensaje_seleccione_categoria_proteger
 string mensaje_seleccione_llamada_sms
