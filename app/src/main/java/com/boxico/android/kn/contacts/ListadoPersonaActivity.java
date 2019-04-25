@@ -1811,6 +1811,7 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 			}catch (Exception e) {
 				// TODO: handle exception
 			}
+			me.habilitarDeshabilitarItemMenu();
 			ConstantsAdmin.mostrarMensajeDialog(me, ConstantsAdmin.mensaje);
 			ConstantsAdmin.mensaje = null;
 
