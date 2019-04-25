@@ -107,6 +107,7 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 	private ListView listaEspecial;
 	private MenuItem menuItemExportarContactosEstetico;
 	private MenuItem menuItemExportarContactos;
+	private MenuItem menuItemImportarContactosCsv;
 
 	//	private ImageView imgPrefLeft = null;
 	private ImageView imgPrefRight = null;
@@ -312,7 +313,7 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 		if ((personasMap == null || personasMap.size() == 0) && (!ConstantsAdmin.config.isMuestraPreferidos())) {
 			boolean existsBU = false;
 			int size;
-			if (ConstantsAdmin.existsBackupFile()) {
+			if (ConstantsAdmin.existeBackupKNContacts() || ConstantsAdmin.existeBackupKNContactsLite()) {
 				existsBU = true;
 				size = 3;
 			} else {
@@ -1649,6 +1650,14 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 				menuItemExportarContactosEstetico.setEnabled(false);
 			}
 		}
+		if(menuItemImportarContactosCsv != null){
+			if(ConstantsAdmin.existeBackupKNContactsLite() || ConstantsAdmin.existeBackupKNContacts()){
+				menuItemImportarContactosCsv.setEnabled(true);
+			}else{
+				menuItemImportarContactosCsv.setEnabled(false);
+			}
+
+		}
 
 	}
 
@@ -1673,8 +1682,8 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 		menuItemExportarContactos = menu.add(0, ConstantsAdmin.ACTIVITY_EJECUTAR_EXPORTAR_CONTACTOS,0, R.string.menu_exportar_contactos);
 		menuItemExportarContactos.setIcon(R.drawable.generate_menu);
 
-		item = menu.add(0, ConstantsAdmin.ACTIVITY_EJECUTAR_IMPORTAR_CONTACTOS_CSV,0, R.string.menu_importar_contactos_csv);
-		item.setIcon(R.drawable.restore_menu);
+		menuItemImportarContactosCsv = menu.add(0, ConstantsAdmin.ACTIVITY_EJECUTAR_IMPORTAR_CONTACTOS_CSV,0, R.string.menu_importar_contactos_csv);
+		menuItemImportarContactosCsv.setIcon(R.drawable.restore_menu);
 
 		item = menu.add(0, ConstantsAdmin.ACTIVITY_EJECUTAR_ABOUT_ME,0, R.string.menu_about_me);
 		item.setIcon(R.drawable.about_me_menu);
@@ -1903,7 +1912,7 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage(R.string.mensaje_importar_contactos_csv)
-				.setCancelable(false)
+				.setCancelable(true)
 				.setPositiveButton(R.string.label_si, new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
 						Long[] params = new Long[2];
@@ -1926,7 +1935,7 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 	private void mostrarDialogImportarBackupLite(){
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage(R.string.mensaje_importar_contactos_csv)
-				.setCancelable(false)
+				.setCancelable(true)
 				.setPositiveButton(R.string.label_si, new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
 						Long[] params = new Long[2];
@@ -1952,7 +1961,7 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 		if(!personasMap.isEmpty()){
 			AlertDialog.Builder builder = new AlertDialog.Builder(this);
 			builder.setMessage(R.string.mensaje_exportar_contactos)
-					.setCancelable(false)
+					.setCancelable(true)
 					.setPositiveButton(R.string.label_si, new DialogInterface.OnClickListener() {
 						public void onClick(DialogInterface dialog, int id) {
 							Long[] params = new Long[1];
@@ -2043,10 +2052,12 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 
 		if(!ConstantsAdmin.existeBackupKNContactsLite()) {
 			this.mostrarDialogImportarBackup();
-		}else {
+		}else if(!ConstantsAdmin.existeBackupKNContacts()){
+			this.mostrarDialogImportarBackupLite();
+		}else{
 			AlertDialog.Builder builder = new AlertDialog.Builder(this);
 			builder.setMessage(R.string.mensaje_seleccionar_origen_backup)
-					.setCancelable(false)
+					.setCancelable(true)
 					.setPositiveButton(R.string.app_name, new DialogInterface.OnClickListener() {
 						public void onClick(DialogInterface dialog, int id) {
 							mostrarDialogImportarBackup();

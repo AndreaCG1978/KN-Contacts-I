@@ -173,7 +173,8 @@
     <string name="mensaje_sin_contactos"><![CDATA[Начать регистрацию контактов с:]]></string>
     <string name="mensaje_enviar_contrasenia"><![CDATA[Отправьте пароль на адрес электронной почты:]]></string>
     <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ Вам необходимо зарегистрировать пароль для защиты ваших категорий!]]></string>
-    <string name="app_lite_name">KN-ContactsLite</string>
-    <string name="mensaje_seleccionar_origen_backup">Se encontró una copia de seguridad de la version KN-ContactsLite, cual versión de copia de seguridad desea recuperar?</string>
+    <string name="app_lite_name">KN-Contacts Lite</string>
+    <string name="mensaje_seleccionar_origen_backup"><![CDATA[Была найдена резервная копия облегченной версии KN-Contacts. Выберите версию резервной копии, которую вы хотите восстановить.]]></string>
+    <string name="mensaje_recuerde_generar_backup"><![CDATA[Резервная копия KN-Contacts Lite была восстановлена. Не забудьте создать новую резервную копию в этом выпуске.]]></string>
 
 </resources>

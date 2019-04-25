@@ -180,7 +180,8 @@
     <string name="mensaje_sin_contactos">Comenzar la carga de contactos desde:</string>
     <string name="mensaje_enviar_contrasenia"><![CDATA[Enviar la contraseña a la cuenta de mail:]]></string>
     <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ Debe registrar una contraseña para poder proteger sus categorías!]]></string>
-    <string name="app_lite_name">KN-ContactsLite</string>
-    <string name="mensaje_seleccionar_origen_backup">Se encontró una copia de seguridad de la versión KN-ContactsLite, cual versión de copia de seguridad desea recuperar?</string>
+    <string name="app_lite_name">KN-Contacts Lite</string>
+    <string name="mensaje_seleccionar_origen_backup"><![CDATA[Se encontró una copia de seguridad de la versión KN-Contacts Lite. Seleccione la versión de copia de seguridad desea restaurar.]]></string>
+    <string name="mensaje_recuerde_generar_backup"><![CDATA[Se ha restaurado la copia de seguridad de KN-Contacts Lite. Recuerde generar una nueva copia de seguridad en esta versión.]]></string>
 
 </resources>

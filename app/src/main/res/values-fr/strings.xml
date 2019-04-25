@@ -172,7 +172,8 @@
     <string name="mensaje_sin_contactos"><![CDATA[Commencez l\'enregistrement des contacts de:]]></string>
     <string name="mensaje_enviar_contrasenia">Envoyez le mot de passe au compte de messagerie:</string>
     <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ Vous devez enregistrer un mot de passe pour protéger vos catégories!]]></string>
-    <string name="app_lite_name">KN-ContactsLite</string>
-    <string name="mensaje_seleccionar_origen_backup">Se encontró una copia de seguridad de la version KN-ContactsLite, cual versión de copia de seguridad desea recuperar?</string>
+    <string name="app_lite_name">KN-Contacts Lite</string>
+    <string name="mensaje_seleccionar_origen_backup"><![CDATA[Une copie de sauvegarde de la version de KN-Contacts Lite a été trouvée. Sélectionnez la version de sauvegarde que vous souhaitez restaurer.]]></string>
+    <string name="mensaje_recuerde_generar_backup"><![CDATA[La sauvegarde de KN-Contacts Lite a été restaurée. N\'oubliez pas de créer une nouvelle sauvegarde dans cette version.]]></string>
 
 </resources>

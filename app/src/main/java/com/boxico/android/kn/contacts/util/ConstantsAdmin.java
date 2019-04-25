@@ -1107,6 +1107,13 @@ public class ConstantsAdmin {
 		return file != null && file.exists();
 	}
 
+	private static void eliminarBackupLite(){
+		File file = obtenerFileCSVLite();
+		if(file != null && file.exists()){
+			file.delete();
+
+		}
+	}
 
 	public static void importarCSV(Activity context, DataBaseManager mDBManager, boolean recuperarLite){
 		String body;
@@ -1117,7 +1124,11 @@ public class ConstantsAdmin {
 				file = obtenerFileCSV(recuperarLite);
 				body = obtenerContenidoArchivo(file);
 				procesarStringDatos(context, body, mDBManager);
-				mensaje = context.getString(R.string.mensaje_exito_importar_csv);
+				if(recuperarLite){
+					mensaje = context.getString(R.string.mensaje_recuerde_generar_backup);
+				}else {
+					mensaje = context.getString(R.string.mensaje_exito_importar_csv);
+				}
 			}
 
 		} catch (Exception e) {
@@ -1599,6 +1610,16 @@ public class ConstantsAdmin {
 
 	public static boolean existeBackupKNContactsLite(){
 		String path = obtenerPath(ConstantsAdmin.folderCSVLite);
+		File dir = new File(path);
+		dir.mkdir();
+		String nombreArchivo = fileCSV;
+		File file = new File(dir.getPath(), nombreArchivo);
+		return file.exists();
+	}
+
+
+	public static boolean existeBackupKNContacts(){
+		String path = obtenerPath(ConstantsAdmin.folderCSV);
 		File dir = new File(path);
 		dir.mkdir();
 		String nombreArchivo = fileCSV;

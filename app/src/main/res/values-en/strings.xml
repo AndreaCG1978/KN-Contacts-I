@@ -163,17 +163,17 @@
 <string name="label_actualizar"><![CDATA[UPDATE]]></string>
 <string name="mensaje_importar_todo_1"><![CDATA[All new contacts will be imported as:]]></string>
 <string name="mensaje_importar_todo_2"><![CDATA[. Existing contacts will be updated (telephone numbers, emails and addresses). Continue?]]></string>
-    <string name="label_agregar_todos"><![CDATA[ADD ALL]]></string>
-    <string name="hint_busqueda">SEARCH</string>
-
-    <string name="menu_editar_persona">Edit Contact</string>
-    <string name="hint_contrasenia">********</string>
-    <string name="label_wsp">WhatsApp</string>
-    <string name="mensaje_pregunta_importar_contacto">The contact data will be imported from the Contacts Diary of your mobile (the existing data are preserved). Do you wish to continue?</string>
-    <string name="mensaje_sin_contactos">Begin contact loading from:</string>
-    <string name="mensaje_enviar_contrasenia"><![CDATA[Send the password to the email account: ]]></string>
-    <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ You must register a password to protect your categories!]]></string>
-    <string name="app_lite_name">KN-ContactsLite</string>
-    <string name="mensaje_seleccionar_origen_backup">Se encontró una copia de seguridad de la version KN-ContactsLite, cual versión de copia de seguridad desea recuperar?</string>
+<string name="label_agregar_todos"><![CDATA[ADD ALL]]></string>
+<string name="hint_busqueda">SEARCH</string>
+<string name="menu_editar_persona">Edit Contact</string>
+<string name="hint_contrasenia">********</string>
+<string name="label_wsp">WhatsApp</string>
+<string name="mensaje_pregunta_importar_contacto">The contact data will be imported from the Contacts Diary of your mobile (the existing data are preserved). Do you wish to continue?</string>
+<string name="mensaje_sin_contactos">Begin contact loading from:</string>
+<string name="mensaje_enviar_contrasenia"><![CDATA[Send the password to the email account: ]]></string>
+<string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ You must register a password to protect your categories!]]></string>
+<string name="app_lite_name">KN-Contacts Lite</string>
+<string name="mensaje_seleccionar_origen_backup"><![CDATA[A backup copy of the KN-Contacts Lite version was found. Select the backup version you want to restore.]]></string>
+    <string name="mensaje_recuerde_generar_backup">The KN-Contacts Lite backup has been restored. Remember to generate a new backup in this version.</string>
 
 </resources>

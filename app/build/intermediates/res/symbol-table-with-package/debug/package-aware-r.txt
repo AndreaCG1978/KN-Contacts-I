@@ -434,6 +434,7 @@ string mensaje_importar_todo_2
 string mensaje_leyenda_registrar_contrasenia
 string mensaje_no_hay_contactos
 string mensaje_pregunta_importar_contacto
+string mensaje_recuerde_generar_backup
 string mensaje_registre_contrasenia
 string mensaje_seleccionar_origen_backup
 string mensaje_seleccione_actividad_categoria
