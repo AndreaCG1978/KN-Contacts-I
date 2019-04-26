@@ -165,7 +165,6 @@
     <string name="mensaje_importar_todo_2"><![CDATA[. Existing contacts will be updated (telephone numbers, emails and addresses). Continue?]]></string>
     <string name="label_agregar_todos"><![CDATA[ADD ALL]]></string>
     <string name="hint_busqueda">SEARCH</string>
-
     <string name="menu_editar_persona">Edit Contact</string>
     <string name="hint_contrasenia">********</string>
     <string name="label_wsp">WhatsApp</string>
