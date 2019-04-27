@@ -85,9 +85,11 @@ public class ListadoCategoriaActivity extends KNListFragment  {
 		saveCategoria = this.findViewById(R.id.saveCategoria);
 		saveCategoria.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				salvarCategoria();
-				refreshList();
-				openAltaCategoria();
+				boolean guardoExitoso = salvarCategoria();
+				if(guardoExitoso) {
+					refreshList();
+					openAltaCategoria();
+				}
 			}
 		});
 		cancelSaveCategory = this.findViewById(R.id.cancelSaveCategory);
@@ -111,9 +113,10 @@ public class ListadoCategoriaActivity extends KNListFragment  {
 		return estaOk;
 	}
 
-	private void salvarCategoria(){
+	private boolean salvarCategoria(){
 		String oldNameCat = "-";
 		boolean reset = false;
+		boolean guardoExitoso = false;
 		if(validarNuevaCategoria()){
 			if(categoriaSeleccionada == null){
 				categoriaSeleccionada = new CategoriaDTO();
@@ -128,6 +131,7 @@ public class ListadoCategoriaActivity extends KNListFragment  {
 			categoriaSeleccionada.setCategoriaPersonal(true);
 			DataBaseManager mDBManager = DataBaseManager.getInstance(this);
 			ConstantsAdmin.crearCategoriaPersonal(categoriaSeleccionada, oldNameCat, false, mDBManager);
+			guardoExitoso = true;
 			if(reset){
 				ConstantsAdmin.resetPersonasOrganizadas();
 			}
@@ -138,6 +142,7 @@ public class ListadoCategoriaActivity extends KNListFragment  {
 			//   		mEntryApellido.clearFocus();
 
 		}
+		return guardoExitoso;
 
 	}
 
