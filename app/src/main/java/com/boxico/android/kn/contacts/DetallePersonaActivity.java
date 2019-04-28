@@ -949,7 +949,7 @@ public class DetallePersonaActivity extends FragmentActivity implements LoaderMa
 
 			PackageManager packageManager = this.getPackageManager();
 			Intent i = new Intent(Intent.ACTION_VIEW);
-			String url = "https://api.whatsapp.com/send?phone=" + tel + "&text=" + URLEncoder.encode("", "UTF-8");
+			String url = ConstantsAdmin.url_whatsapp + "send?phone=" + tel + "&text=" + URLEncoder.encode("", "UTF-8");
 			i.setPackage("com.whatsapp");
 			i.setData(Uri.parse(url));
 			if (i.resolveActivity(packageManager) != null) {
