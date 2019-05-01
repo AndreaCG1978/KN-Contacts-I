@@ -176,4 +176,6 @@
     <string name="app_lite_name">KN-Contacts Lite</string>
     <string name="mensaje_seleccionar_origen_backup"><![CDATA[Es wurde eine Sicherungskopie der KN-Contacts Lite-Version gefunden. Wählen Sie die Sicherungsversion aus, die Sie wiederherstellen möchten.]]></string>
     <string name="mensaje_recuerde_generar_backup"><![CDATA[Die KN-Contacts Lite-Sicherung wurde wiederhergestellt. Denken Sie daran, in dieser Version ein neues Backup zu erstellen.]]></string>
+    <string name="mensaje_politica_privacidad"><![CDATA[yyyy ]]></string>
+    <string name="label_politica_privacidad">Invitamos a que lea nuestra Política de Privacidad</string>
 </resources>

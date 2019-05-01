@@ -28,9 +28,18 @@
 	<TextView android:id="@+id/textAcercaDeMail"
 		android:layout_height="wrap_content" android:layout_width="match_parent"
 		android:text="@string/text_acerca_de_mail" android:layout_gravity="start"
-		android:layout_margin="10dp" android:gravity="center"
-		android:textSize="20sp" android:textColor="@color/color_gris_claro"
+		android:layout_margin="20dp" android:gravity="center"
+		android:textSize="20sp" android:textColor="@android:color/white"
 		android:textStyle="italic" />
+
+	<TextView android:id="@+id/textPoliticaPrivacidad"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/label_politica_privacidad"
+		android:textSize="17sp"
+		android:layout_margin="15dp"
+		android:textColor="@android:color/holo_orange_light"
+		/>
 
 
 

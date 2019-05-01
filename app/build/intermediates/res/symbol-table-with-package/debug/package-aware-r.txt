@@ -289,6 +289,7 @@ id textCantidad
 id textExtrasPersonaEncontrada
 id textName
 id textPersonaEncontrada
+id textPoliticaPrivacidad
 id time
 id title
 id tituloCategorias
@@ -400,6 +401,7 @@ string label_mail
 string label_no
 string label_nuevo_contacto
 string label_ok
+string label_politica_privacidad
 string label_proteger_categoria
 string label_registrarPersona
 string label_registrarPersonaYSalir
@@ -433,6 +435,7 @@ string mensaje_importar_todo_1
 string mensaje_importar_todo_2
 string mensaje_leyenda_registrar_contrasenia
 string mensaje_no_hay_contactos
+string mensaje_politica_privacidad
 string mensaje_pregunta_importar_contacto
 string mensaje_recuerde_generar_backup
 string mensaje_registre_contrasenia

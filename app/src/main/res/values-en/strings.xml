@@ -173,7 +173,7 @@
 <string name="mensaje_enviar_contrasenia"><![CDATA[Send the password to the email account: ]]></string>
 <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ You must register a password to protect your categories!]]></string>
 <string name="app_lite_name">KN-Contacts Lite</string>
-<string name="mensaje_seleccionar_origen_backup"><![CDATA[A backup copy of the KN-Contacts Lite version was found. Select the backup version you want to restore.]]></string>
-    <string name="mensaje_recuerde_generar_backup">The KN-Contacts Lite backup has been restored. Remember to generate a new backup in this version.</string>
-
+<string name="mensaje_seleccionar_origen_backup"><![CDATA[A backup copy of the KN-Contacts Lite version was found. Select the backup version you want to restore.]]></string><string name="mensaje_recuerde_generar_backup">The KN-Contacts Lite backup has been restored. Remember to generate a new backup in this version.</string>
+    <string name="mensaje_politica_privacidad"><![CDATA[yyyy ]]></string>
+    <string name="label_politica_privacidad">Invitamos a que lea nuestra Política de Privacidad</string>
 </resources>

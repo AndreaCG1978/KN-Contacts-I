@@ -1,6 +1,8 @@
 package com.boxico.android.kn.contacts;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -13,6 +15,7 @@ import com.boxico.android.kn.contacts.util.ConstantsAdmin;
 public class AboutMeActivity extends Activity {
 	
 	private  TextView mail = null;
+	private  TextView politicaPrivacidad = null;
 
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +46,7 @@ public class AboutMeActivity extends Activity {
     }
     
     private void configurarMailYLinkPagEmpresa(){
+		final AboutMeActivity me = this;
     	mail = this.findViewById(R.id.textAcercaDeMail);
     	mail.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -51,6 +55,22 @@ public class AboutMeActivity extends Activity {
 				enviarMailGenerico(mail.getText().toString());
 			}
 		});
+    	politicaPrivacidad = this.findViewById(R.id.textPoliticaPrivacidad);
+    	politicaPrivacidad.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				AlertDialog.Builder builder = new AlertDialog.Builder(me);
+				builder.setMessage(R.string.mensaje_politica_privacidad)
+						.setCancelable(true)
+						.setPositiveButton(R.string.label_ok, new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int id) {
+								dialog.cancel();
+							}
+						});
+				builder.show();
+			}
+		});
+
 
 
     	
