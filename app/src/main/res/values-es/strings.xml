@@ -213,5 +213,5 @@ KN-Contacts funciona en conjunto con otras aplicaciones instaladas en su disposi
 KN-Apps no venderá, cederá ni distribuirá la información que es recopilada.
 
 KN-Apps Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento. ]]></string>
-    <string name="label_politica_privacidad">Invitamos a que lea nuestra Política de Privacidad</string>
+    <string name="label_politica_privacidad"><![CDATA[Invitamos a que lea nuestra Política de Privacidad]]></string>
 </resources>

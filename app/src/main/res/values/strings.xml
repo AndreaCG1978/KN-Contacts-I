@@ -87,7 +87,7 @@
     <string name="errorDesactivandoCategorias">You can not deactivate all Categories.</string>
     <string name="error_alta_persona_incompleta">You must complete the Last Name…</string>
     <string name="error_alta_categoria_incompleta">You must complete the Category Name and Feature…</string>
-    <string name="error_sin_preferidos">There is no Favorite Contacts.</string>
+    <string name="error_sin_preferidos">There are no Favorite Contacts.</string>
     <string name="errorEliminacionPreferido">Failed to remove the Favorite Contact.</string>
     <string name="errorAgregarPreferido">Failed to add the Favorite Contact.</string>
 
@@ -176,6 +176,6 @@
     <string name="mensaje_seleccionar_origen_backup"><![CDATA[A backup copy of the KN-Contacts Lite version was found. Select the backup version you want to restore.]]></string>
     <string name="mensaje_recuerde_generar_backup">The KN-Contacts Lite backup has been restored. Remember to generate a new backup in this version.</string>
     <string name="mensaje_politica_privacidad"><![CDATA[yyyy ]]></string>
-    <string name="label_politica_privacidad">Invitamos a que lea nuestra Política de Privacidad</string>
+    <string name="label_politica_privacidad">We invite you to read our Privacy Policy</string>
 
 </resources>
