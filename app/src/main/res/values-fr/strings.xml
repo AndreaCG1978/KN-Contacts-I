@@ -175,6 +175,34 @@
     <string name="app_lite_name">KN-Contacts Lite</string>
     <string name="mensaje_seleccionar_origen_backup"><![CDATA[Une copie de sauvegarde de la version de KN-Contacts Lite a été trouvée. Sélectionnez la version de sauvegarde que vous souhaitez restaurer.]]></string>
     <string name="mensaje_recuerde_generar_backup"><![CDATA[La sauvegarde de KN-Contacts Lite a été restaurée. N\'oubliez pas de créer une nouvelle sauvegarde dans cette version.]]></string>
-    <string name="mensaje_politica_privacidad"><![CDATA[yyyy ]]></string>
+    <string name="mensaje_politica_privacidad"><![CDATA[POLITIQUE DE CONFIDENTIALITÉ
+
+Cette politique de confidentialité définit les conditions dans lesquelles KN-Contacts utilise et protège les informations fournies par les utilisateurs lors de l\'utilisation de cette application. KN-Apps, qui a développé l\'application KN-Contacts, s\'engage à protéger les données de ses utilisateurs. Toutes les données accessibles à partir de votre journal de contacts ou du stockage de votre appareil seront enregistrées de manière à ce qu\'elles ne soient utilisées que conformément aux conditions de ce document. Veuillez considérer que cette politique de confidentialité peut changer au fil du temps ou être mise à jour, il est donc recommandé de consulter régulièrement cette section pour vous assurer que vous acceptez ces modifications.
+
+Informations collectées et/ou stockées
+
+KN-Contacts peut collecter et/ou stocker les données suivantes de votre appareil, en effectuant les actions suivantes:
+
+* Récupérer les coordonnées du journal des contacts: nom, prénoms, téléphones, courriers, adresses postales et photo de contact,
+* Obtenir des images de stockage,
+* Capturer des images en utilisant l\'appareil photo,
+* Générez et/ou obtenez des fichiers de type CSV et JPG.
+
+
+Utilisation des informations collectées et/ou stockées
+
+Pour obtenir les informations de contact, KN-Contacts peut obtenir certaines informations à partir du journal des contacts de votre appareil, qu\'il stockera afin de permettre à l\'utilisateur d\'accéder, d\'utiliser et de manipuler ces informations. L\'obtention de ces données sera précédée de la demande correspondante de permission d\'accès, avec laquelle l\'utilisateur décidera s\'il souhaite ou non accéder aux données de ses contacts.
+KN-Contacts permet à l\'utilisateur de générer et de récupérer des copies de sauvegarde des informations chargées, d\'associer des images ou des captures aux contacts chargés, et de générer des fichiers Excels contenant les informations chargées sous forme de liste. Pour ce faire, KN-Contacts doit accéder au stockage de votre appareil. Comme pour les contacts, l\'accès au stockage sera précédé de la demande d\'autorisation d\'accès correspondante. Pour enregistrer la copie de sauvegarde et/ou les images, l\'application génère un dossier "KN-ContactsLite" dans son stockage. Dans ce dossier, la copie de sauvegarde que l\'utilisateur peut générer est trouvée, ainsi que les images qu\'il associe à chaque contact (dans le sous-dossier "Pictures").
+De même, dans le cas où l\'utilisateur le souhaite, l\'application stockera un mot de passe et un email de sauvegarde dans la section protection de la catégorie. Ces données seront utilisées pour autoriser ou restreindre l\'accès de l\'utilisateur à certaines informations de l\'application. L\'utilisateur peut récupérer le mot de passe enregistré s\'il ne s\'en souvient pas en générant un courrier (avec un courrier enregistré précédemment) dans lequel le mot de passe sera envoyé.
+KN-Contacts s\'engage fortement à respecter l\'engagement de protéger vos informations.
+
+
+Utilisation d\'autres applications
+
+KN-Contacts fonctionne avec d\'autres applications installées sur votre appareil, notamment pour l\'envoi d'e-mails, les appels téléphoniques, l\'envoi de SMS ou de WhatsApp, l\'emplacement géographique, le stockage de fichiers, la capture d\'images et la récupération d\'images stockées sur votre appareil. Lorsque l\'utilisateur accède à l\'une de ces applications et quitte KN-Contacts, il n\'y a plus aucun contrôle sur ces applications vers lesquelles l\'utilisateur est redirigé. Par conséquent, KN-Contacts n\'est pas responsable des conditions d\'utilisation, de la confidentialité ou de la protection de vos données dans ces tiers applications tierces. Ces applications sont soumises à leurs propres politiques de confidentialité. Il est donc recommandé de les vérifier pour confirmer que vous les acceptez.
+
+KN-Apps ne vendra pas, ne transférera pas et ne distribuera pas les informations collectées.
+
+KN-Apps se réserve le droit de modifier les termes de cette politique de confidentialité à tout moment.]]></string>
     <string name="label_politica_privacidad"><![CDATA[Nous vous invitons à lire notre politique de confidentialité]]></string>
 </resources>

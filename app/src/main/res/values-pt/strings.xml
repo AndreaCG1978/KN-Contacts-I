@@ -178,6 +178,32 @@
     <string name="app_lite_name">KN-Contacts Lite</string>
     <string name="mensaje_seleccionar_origen_backup"><![CDATA[Um backup da versão Lite do KN-Contacts foi encontrado. Selecione a versão de backup que você deseja restaurar.]]></string>
     <string name="mensaje_recuerde_generar_backup"><![CDATA[Backup KN-Contacts Lite foi restaurado. Não esqueça de criar um novo backup nesta versão.]]></string>
-    <string name="mensaje_politica_privacidad"><![CDATA[yyyy ]]></string>
+    <string name="mensaje_politica_privacidad"><![CDATA[POLÍTICA DE PRIVACIDADE
+
+Esta Política de Privacidade estabelece os termos sob os quais a KN-Contacts usa e protege as informações fornecidas pelos usuários ao usar este aplicativo. A KN-Apps, que desenvolveu o aplicativo KN-Contacts, está comprometida com a segurança dos dados de seus usuários. Todos os dados que são acessados ​​a partir do seu Diário de Contatos ou do armazenamento do seu dispositivo serão feitos, garantindo que eles sejam usados ​​apenas de acordo com os termos deste documento. Por favor, considere que esta Política de Privacidade pode mudar ao longo do tempo ou ser atualizada, por isso, recomenda-se a revisão periódica desta seção para garantir que você concorda com essas mudanças.
+
+Informações coletadas e/ou armazenadas
+
+A KN-Contacts pode coletar e/ou armazenar os seguintes dados do seu dispositivo, executando as seguintes ações:
+
+* Recuperar informações de contato do Diário Contatos: Sobrenome, nomes, telefones, e-mails, endereços postais e foto de contato,
+* Obtenha imagens do armazenamento
+* Capture imagens usando a câmera,
+* Gerar e / ou obter arquivos do tipo CSV e JPG.
+
+Uso de informações coletadas e/ou armazenadas
+
+Para carregar informações de contato, KN-Contacts podem obter determinadas informações do Diário de Contatos do seu dispositivo, que será armazenado no seu espaço reservado e, desta forma, permitir o acesso, uso e manipulação ao usuário sobre essas informações. A obtenção destes dados será precedida de seu correspondente pedido de permissão de acesso, assim o usuário decidirá se deve ou não acessar os dados dos contatos.
+KN-Contacts permite que o usuário gere e recupere cópias de backup das informações carregadas, associe imagens ou capture aos contatos carregados e gere arquivos Excels das informações carregadas como uma lista. Para isso, KN-Contacts devem acessar o armazenamento do seu dispositivo. Assim como nos contatos, o acesso ao armazenamento será precedido pela solicitação de permissão de acesso correspondente. Para salvar a cópia de backup e/ou imagens, o aplicativo gera uma pasta "KN-ContactsLite" em seu armazenamento, dentro dessa pasta a cópia de backup que o usuário pode gerar é encontrada, assim como as imagens que o usuário associa a cada contato (na subpasta "Pictures").
+Da mesma forma, no caso que o usuário desejar, o aplicativo armazenará uma senha e um email de backup na seção de proteção de categoria. Esses dados serão usados ​​para permitir ou restringir o acesso a determinadas informações dentro do aplicativo pelo usuário. O usuário pode recuperar a senha registrada caso não se lembre dela gerando um e-mail (com um e-mail previamente cadastrado) no qual a senha será enviada.
+A KN-Contacts está altamente comprometida em cumprir o compromisso de manter suas informações seguras.
+
+Uso de outros aplicativos
+
+KN-Contacts funciona em conjunto com outras aplicações instaladas no seu dispositivo, particularmente para enviar e-mails, fazer chamadas telefônicas, enviar SMS ou WhatsApp, localização geográfica, armazenamento de arquivos, captura de imagens e recuperação de imagens armazenadas no seu dispositivo. Quando o usuário acessa qualquer um desses aplicativos e sai do KN-Contacts, não há mais controle sobre esses aplicativos para os quais o usuário é redirecionado e, portanto, a KN-Contacts não é responsável pelos termos ou privacidade nem protege seus dados nesses aplicações. Esses aplicativos estão sujeitos às suas próprias políticas de privacidade, por isso é recomendável que você os verifique para confirmar se concorda com eles.
+
+A KN-Apps não irá vender, transferir ou distribuir as informações coletadas.
+
+A KN-Apps reserva-se o direito de alterar os termos desta Política de Privacidade a qualquer momento.]]></string>
     <string name="label_politica_privacidad"><![CDATA[Por favor, leia nossa política de privacidade]]></string>
 </resources>

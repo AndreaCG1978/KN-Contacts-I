@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">KN-Contactos</string>
+    <string name="app_name">KN-Contacts</string>
     <string name="hint_apellido">APELLIDO</string>
     <string name="hint_nombre">NOMBRE</string>
     <string name="hint_descripcion">DESCRIPCION</string>
