@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml",
+            "outputFile": "C:\\Users\\a.grassano.spb\\ProyectosAndroid\\KN-Contacts-I\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
-                    "source": "/home/andrea/.gradle/caches/transforms-2/files-2.1/3e33f18aa36992dcdee15821dc4b4e3e/res/values-te/values-te.xml",
+                    "source": "C:\\Users\\a.grassano.spb\\.gradle\\caches\\transforms-2\\files-2.1\\6b72f01b496a1c29a8ae50219a483d1c\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

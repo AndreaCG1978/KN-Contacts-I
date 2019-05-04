@@ -179,5 +179,5 @@
     <string name="mensaje_seleccionar_origen_backup"><![CDATA[Um backup da versão Lite do KN-Contacts foi encontrado. Selecione a versão de backup que você deseja restaurar.]]></string>
     <string name="mensaje_recuerde_generar_backup"><![CDATA[Backup KN-Contacts Lite foi restaurado. Não esqueça de criar um novo backup nesta versão.]]></string>
     <string name="mensaje_politica_privacidad"><![CDATA[yyyy ]]></string>
-    <string name="label_politica_privacidad">Invitamos a que lea nuestra Política de Privacidad</string>
+    <string name="label_politica_privacidad"><![CDATA[Por favor, leia nossa política de privacidade]]></string>
 </resources>
