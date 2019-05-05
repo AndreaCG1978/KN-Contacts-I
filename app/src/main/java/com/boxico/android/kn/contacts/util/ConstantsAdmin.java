@@ -84,6 +84,7 @@ public class ConstantsAdmin {
 	public static CursorLoader cursorPhonePersona = null;
 	public static CursorLoader cursorDirsPersona = null;
 	public static CursorLoader cursorPersonaByNombreYApellido = null;
+	public static CursorLoader cursorPersonaByIdAgenda = null;
 
 	public static final String querySelectionContactsById = ContactsContract.Data.MIMETYPE + " = ? AND " + ContactsContract.CommonDataKinds.StructuredName.CONTACT_ID + "=";
 	public static final String querySelectionContactsPhoneById = ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = ";
@@ -220,6 +221,14 @@ public class ConstantsAdmin {
 		String selection = null;
 		if (column != null && !column.equals("")) {
 			selection = column + "= '" + value + "'";
+		}
+		return selection;
+	}
+
+	public static String querySelectionByIdAgenda(String idAgenda) {
+		String selection = null;
+		if (idAgenda != null && !idAgenda.equals("")) {
+			selection = "(" + ConstantsAdmin.KEY_ID_PERSONA_AGENDA + " LIKE '" + idAgenda + "') ";
 		}
 		return selection;
 	}
@@ -947,6 +956,48 @@ public class ConstantsAdmin {
 		if(per == null){
 			//	cursor = mDBManager.fetchPersonaPorNombreYApellido(apellido, name);
 			cursorLoader.setSelection(ConstantsAdmin.querySelectionNombreYApellidoPersona(apellido, name));
+			//	cursorLoader.reset();
+
+			//cursor = mDBManager.fetchPersonaPorNombreYApellido(name, apellido);
+			cursor = cursorLoader.loadInBackground();
+
+			if(cursor != null){
+				//	context.startManagingCursor(cursor);
+				if(cursor.getCount() > 0){
+					per = cursorToPersonaDto(cursor);
+				}
+				//	cursor.close();
+				//	context.stopManagingCursor(cursor);
+			}
+
+		}
+		return per;
+	}
+
+
+
+
+	public static PersonaDTO obtenerPersonaIdAgenda(String idAgenda){
+		Cursor cursor;
+		CursorLoader cursorLoader = null;
+		PersonaDTO per = null;
+
+		cursorLoader = ConstantsAdmin.cursorPersonaByIdAgenda;
+		cursorLoader.setSelection(ConstantsAdmin.querySelectionByIdAgenda(idAgenda));
+		//	cursorLoader.reset();
+		//cursor = mDBManager.fetchPersonaPorNombreYApellido(name, apellido);
+		cursor = cursorLoader.loadInBackground();
+		if(cursor != null){
+			//	context.startManagingCursor(cursor);
+			if(cursor.getCount() > 0){
+				per = cursorToPersonaDto(cursor);
+			}
+			//	cursor.close();
+			//	context.stopManagingCursor(cursor);
+		}
+		if(per == null){
+			//	cursor = mDBManager.fetchPersonaPorNombreYApellido(apellido, name);
+			cursorLoader.setSelection(ConstantsAdmin.querySelectionByIdAgenda(idAgenda));
 			//	cursorLoader.reset();
 
 			//cursor = mDBManager.fetchPersonaPorNombreYApellido(name, apellido);

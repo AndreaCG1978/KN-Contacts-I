@@ -88,6 +88,7 @@ public class ImportarContactoActivity extends FragmentActivity implements Loader
 	private final int PERSONA_PHONE_CURSOR = 4;
 	private final int PERSONA_NOMBRE_APELLIDO_CURSOR = 5;
 	private final int PERSONA_DIR_CURSOR = 6;
+	private final int PERSONA_ID_AGENDA_CURSOR = 7;
 
 	private static final int PERMISSIONS_REQUEST_READ_CONTACTS = 100;
 	private ArrayList<TipoValorDTO> nuevosTelefonos;
@@ -108,6 +109,8 @@ public class ImportarContactoActivity extends FragmentActivity implements Loader
 		this.getSupportLoaderManager().initLoader(PERSONA_PHONE_CURSOR, null, this);
 		this.getSupportLoaderManager().initLoader(PERSONA_DIR_CURSOR, null, this);
 		this.getSupportLoaderManager().initLoader(PERSONA_NOMBRE_APELLIDO_CURSOR, null, this);
+		this.getSupportLoaderManager().initLoader(PERSONA_ID_AGENDA_CURSOR, null, this);
+
 	}
 
 
@@ -260,16 +263,23 @@ public class ImportarContactoActivity extends FragmentActivity implements Loader
 					}
 
 					if (!family.equals("") || !given.equals("")) {
+						/*
 						persona = ConstantsAdmin.obtenerPersonaConNombreYApellido(given, family);
 						if (persona == null) {
 							persona = new PersonaDTO();
 						}
 						persona.setApellido(family);
 						persona.setNombres(given);
-					/*	if (persona.getNombres() != null && (persona.getApellido() == null || persona.getApellido().equals(""))) {
-							persona.setApellido(persona.getNombres());
-							persona.setNombres(null);
-						}*/
+
+
+						*/
+
+						persona = ConstantsAdmin.obtenerPersonaIdAgenda(contactId);
+						if (persona == null) {
+							persona = new PersonaDTO();
+							persona.setApellido(family);
+							persona.setNombres(given);
+						}
 						encontrado = true;
 						this.mostrarDatosPersonaEncontrada();
 					}
@@ -322,17 +332,20 @@ public class ImportarContactoActivity extends FragmentActivity implements Loader
 						family = "";
 					}
 					if (!family.equals("") || !given.equals("")) {
-
+/*
 						persona = ConstantsAdmin.obtenerPersonaConNombreYApellido(given, family);
 						if (persona == null) {
 							persona = new PersonaDTO();
 						}
 						persona.setApellido(family);
 						persona.setNombres(given);
-					/*	if (persona.getNombres() != null && (persona.getApellido() == null || persona.getApellido().equals(""))) {
-							persona.setApellido(persona.getNombres());
-							persona.setNombres(null);
-						}*/
+*/
+						persona = ConstantsAdmin.obtenerPersonaIdAgenda(contactId);
+						if (persona == null) {
+							persona = new PersonaDTO();
+							persona.setApellido(family);
+							persona.setNombres(given);
+						}
 						encontrado = true;
 
 						this.mostrarDatosPersonaEncontrada();
@@ -588,6 +601,10 @@ public class ImportarContactoActivity extends FragmentActivity implements Loader
 				cl = mDBManager.cursorLoaderNombreApellidoPersona(null, null, this);
 				ConstantsAdmin.cursorPersonaByNombreYApellido = cl;
 				break; // optional
+			case PERSONA_ID_AGENDA_CURSOR:
+				cl = mDBManager.cursorLoaderIdAgenda(null, this);
+				ConstantsAdmin.cursorPersonaByIdAgenda = cl;
+				break; // optional
 			default: // Optional
 		}
 		return cl;
@@ -651,12 +668,20 @@ public class ImportarContactoActivity extends FragmentActivity implements Loader
 				family = (String) contactoActual.getValue();
 
 				if (family != null && !family.equals("") || given != null && !given.equals("")) {
-					persona = ConstantsAdmin.obtenerPersonaConNombreYApellido(given, family);
+	/*				persona = ConstantsAdmin.obtenerPersonaConNombreYApellido(given, family);
 					if (persona == null) {
 						persona = new PersonaDTO();
 					}
-					persona.setApellido(family);
-					persona.setNombres(given);
+
+					*/
+
+					persona = ConstantsAdmin.obtenerPersonaIdAgenda(contactId);
+					if (persona == null) {
+						persona = new PersonaDTO();
+						persona.setApellido(family);
+						persona.setNombres(given);
+					}
+
 				/*	if (persona.getNombres() != null && persona.getApellido() == null) {
 						persona.setApellido(persona.getNombres());
 						persona.setNombres(null);
