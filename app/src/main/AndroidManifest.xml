@@ -4,6 +4,10 @@
 	package="com.boxico.android.kn.contacts" android:versionCode="1"
 	android:versionName="1.0">
 
+	<uses-sdk android:minSdkVersion="19"
+		android:targetSdkVersion="27"
+		/>
+
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
 	<uses-permission android:name="android.permission.CALL_PHONE" />
 	<uses-permission android:name="android.permission.INTERNET" />
