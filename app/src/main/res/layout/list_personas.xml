@@ -117,7 +117,7 @@
 			android:gravity="center|center_vertical"
 			android:background="@color/color_gris_oscuro">
 
-			<com.boxico.android.kn.contacts.util.MultiSpinner
+			<com.boxico.android.kn.kncontacts.util.MultiSpinner
 				android:id="@+id/multi_spinner"
 				android:layout_width="35dp"
 				android:layout_height="35dp"

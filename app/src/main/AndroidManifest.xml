@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
-	package="com.boxico.android.kn.contacts" android:versionCode="1"
+	package="com.boxico.android.kn.kncontacts" android:versionCode="1"
 	android:versionName="1.0">
 
 
@@ -33,7 +33,7 @@
 
 
 
-		<activity android:name="InitActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.InitActivity" android:screenOrientation="portrait">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -42,7 +42,7 @@
 				<action android:name="android.permission.READ_CONTACTS" />
 			</intent-filter>
 		</activity>
-		<activity android:name="ListadoPersonaActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.ListadoPersonaActivity" android:screenOrientation="portrait">
 			<intent-filter>
 				<action android:name="android.permission.READ_CONTACTS" />
 			</intent-filter>
@@ -51,7 +51,7 @@
 			</intent-filter>
 
 		</activity>
-		<activity android:name="DetallePersonaActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.DetallePersonaActivity" android:screenOrientation="portrait">
 			<intent-filter>
 				<action android:name="android.permission.CALL_PHONE" />
 			</intent-filter>
@@ -59,23 +59,23 @@
 				<action android:name="android.permission.READ_CONTACTS" />
 			</intent-filter>
 		</activity>
-		<activity android:name="ListadoCategoriaActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.ListadoCategoriaActivity" android:screenOrientation="portrait">
 		</activity>
 		<activity
-			android:name="AltaPersonaActivity"
+			android:name="com.boxico.android.kn.kncontacts.AltaPersonaActivity"
 			android:screenOrientation="portrait"
 			android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
 
-		<activity android:name="AboutMeActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.AboutMeActivity" android:screenOrientation="portrait">
 		</activity>
 
-		<activity android:name="ProteccionCategoriaActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity" android:screenOrientation="portrait">
 		</activity>
 
-		<activity android:name="ActivarContraseniaActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.ActivarContraseniaActivity" android:screenOrientation="portrait">
 		</activity>
 
-		<activity android:name="PhotoActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.PhotoActivity" android:screenOrientation="portrait">
 			<intent-filter>
 				<action android:name="android.permission.READ_EXTERNAL_STORAGE" />
 			</intent-filter>
@@ -84,18 +84,18 @@
 			</intent-filter>
 		</activity>
 
-		<activity android:name="ImportarContactoActivity" android:screenOrientation="portrait"
+		<activity android:name="com.boxico.android.kn.kncontacts.ImportarContactoActivity" android:screenOrientation="portrait"
 			android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
 			<intent-filter>
 				<action android:name="android.permission.READ_CONTACTS" />
 			</intent-filter>
 		</activity>
 
-		<activity android:name="MenuPersonaActivity" android:screenOrientation="portrait">
+		<activity android:name="com.boxico.android.kn.kncontacts.MenuPersonaActivity" android:screenOrientation="portrait">
 		</activity>
 
 		<provider
-			android:name=".util.GenericFileProvider"
+			android:name="com.boxico.android.kn.kncontacts.util.GenericFileProvider"
 			android:authorities="${applicationId}.provider"
 			android:exported="false"
 			android:grantUriPermissions="true">
