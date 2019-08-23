@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.boxico.android.kn.contacts"
+    package="com.boxico.android.kn.kncontacts"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -30,7 +30,8 @@
         android:icon="@drawable/contacts_icon"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:supportsRtl="true" >
+        android:supportsRtl="true"
+        android:testOnly="true" >
         <activity
             android:name="com.boxico.android.kn.kncontacts.InitActivity"
             android:screenOrientation="portrait" >
@@ -108,7 +109,7 @@
 
         <provider
             android:name="com.boxico.android.kn.kncontacts.util.GenericFileProvider"
-            android:authorities="com.boxico.android.kn.contacts.provider"
+            android:authorities="com.boxico.android.kn.kncontacts.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

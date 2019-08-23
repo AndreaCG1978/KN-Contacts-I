@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_lite_name">KN-Contacts Lite</string>
+    <string name="app_name">KN-Contacts</string>
+    <string name="cat_Amigo">Amico</string>
+    <string name="cat_Cliente">Clienti</string>
+    <string name="cat_Colega">Collega</string>
+    <string name="cat_Conocido">Conoscente</string>
+    <string name="cat_Familiar">Parente</string>
+    <string name="cat_Jefe">Capo</string>
+    <string name="cat_Medico">Dottore</string>
+    <string name="cat_Otro">Altri</string>
+    <string name="cat_Paciente">Paziente</string>
+    <string name="cat_Profesor">Insegnante</string>
+    <string name="cat_Proveedor">Fornitore</string>
+    <string name="cat_Socio">Socio</string>
+    <string name="cat_TODAS">TUTTI</string>
+    <string name="cat_Vecino">Vicino</string>
+    <string name="coma_separated">formato USA/UK ( , )</string>
+    <string name="errorActualizacionContacto">Impossibile aggiornare il contatto.</string>
+    <string name="errorAgregarPreferido">Impossibile aggiungere il contatto preferito.</string>
+    <string name="errorAltaContacto">Impossibile aggiungere il contatto.</string>
+    <string name="errorDesactivandoCategorias"><![CDATA[Non è possibile disattivare tutte le categorie.]]></string>
+    <string name="errorEfectuarLlamada">Impossibile effettuare la chiamata.</string>
+    <string name="errorEliminacionCategoria">Impossibile rimuovere la categoria.</string>
+    <string name="errorEliminacionContacto">Impossibile rimuovere il contatto.</string>
+    <string name="errorEliminacionPreferido">Impossibile rimuovere il contatto preferito.</string>
+    <string name="errorImportarContacto">Impossibile importare dalla lista dei contatti.</string>
+    <string name="errorInicioAplicacion"><![CDATA[Impossibile inizializzare l\'applicazione.]]></string>
+    <string name="errorMandarMail"><![CDATA[Impossibile inviare l\'e-mail.]]></string>
+    <string name="errorMandarMensaje">Impossibile inviare il messaggio.</string>
+    <string name="error_alta_categoria_incompleta"><![CDATA[È necessario completare il nome della categoria e funzionalità …]]></string>
+    <string name="error_alta_contrasenia"><![CDATA[Password errata…]]></string>
+    <string name="error_alta_persona_incompleta"><![CDATA[È necessario completare il cognome …]]></string>
+    <string name="error_exportar_csv"><![CDATA[Il backup non può essere generato.]]></string>
+    <string name="error_importar_csv"><![CDATA[Impossibile recuperare il backup.]]></string>
+    <string name="error_sin_preferidos">Non ci sono contatti preferiti.</string>
+    <string name="hint_apellido">COGNOME</string>
+    <string name="hint_busqueda">CERCA</string>
+    <string name="hint_caracteristica">FUNZIONE</string>
+    <string name="hint_categoria">CATEGORIA</string>
+    <string name="hint_contrasenia">********</string>
+    <string name="hint_descripcion">DESCRIZIONE</string>
+    <string name="hint_empresa">AZIENDA</string>
+    <string name="hint_especialidad">SPECIALITA</string>
+    <string name="hint_fechaNacimiento">NASCITA</string>
+    <string name="hint_lugarOActividad"><![CDATA[ATTIVITÀ]]></string>
+    <string name="hint_nombre">NOME</string>
+    <string name="hint_obraSocial">ASSICURAZIONE</string>
+    <string name="hint_parentesco">PARENTELA</string>
+    <string name="hint_rol">RUOLO</string>
+    <string name="hint_tipo">TIPO</string>
+    <string name="hint_zona">ZONA</string>
+    <string name="label_activar_categoria"><![CDATA[ABILITA]]></string>
+    <string name="label_actualizar"><![CDATA[AGGIORNA]]></string>
+    <string name="label_agregar"><![CDATA[AGGIUNGI]]></string>
+    <string name="label_agregar_todos"><![CDATA[AGGIUNGI TUTTI]]></string>
+    <string name="label_bloquear_contrasenia"><![CDATA[BLOCCARE]]></string>
+    <string name="label_cantidad_categorias_protegidas"><![CDATA[CATEGORIE PROTTETA]]></string>
+    <string name="label_categorias"><![CDATA[CATEGORIE]]></string>
+    <string name="label_contacto_existente"><![CDATA[(Contatto esistente -]]></string>
+    <string name="label_contrasenia"><![CDATA[PASSWORD]]></string>
+    <string name="label_datosDeCategoria">CATEGORIA</string>
+    <string name="label_desbloquear_contrasenia"><![CDATA[SBLOCCA]]></string>
+    <string name="label_direccion">INDIRIZZO</string>
+    <string name="label_direcciones">INDIRIZZO</string>
+    <string name="label_email">E-MAIL</string>
+    <string name="label_emails">EMAIL</string>
+    <string name="label_fechaNacimiento">NASCITA</string>
+    <string name="label_guardar_parcial">Salvato …</string>
+    <string name="label_identificacion">IDENTIFICAZIONE</string>
+    <string name="label_llamada">CHIAMATA</string>
+    <string name="label_mail"><![CDATA[EMAIL]]></string>
+    <string name="label_no">NO</string>
+    <string name="label_nuevo_contacto"><![CDATA[Nuovo contatto]]></string>
+    <string name="label_ok">Ok</string>
+    <string name="label_politica_privacidad"><![CDATA[Si prega di leggere la nostra politica sulla privacy]]></string>
+    <string name="label_proteger_categoria"><![CDATA[PROTEGGERE]]></string>
+    <string name="label_registrarPersona">SALVA</string>
+    <string name="label_registrarPersonaYSalir">SALVA ED ESCI</string>
+    <string name="label_registrar_contrasenia"><![CDATA[REGISTRATI]]></string>
+    <string name="label_repetir_contrasenia"><![CDATA[RIPETERE LA PASSWORD]]></string>
+    <string name="label_si">SI</string>
+    <string name="label_sms">SMS</string>
+    <string name="label_telefono">TELEFONO</string>
+    <string name="label_telefonos">TELEFONI</string>
+    <string name="label_wsp">WhatsApp</string>
+    <string name="mensaje_activacion_proteccion"><![CDATA[Le sue categorie sono ora protette…]]></string>
+    <string name="mensaje_borrar_categoria"><![CDATA[La categoria verrà rimosso. Sei sicuro?]]></string>
+    <string name="mensaje_borrar_foto"><![CDATA[Volete eliminare l\'immagine?]]></string>
+    <string name="mensaje_borrar_persona"><![CDATA[Il contatto verrà rimosso. Sei sicuro?]]></string>
+    <string name="mensaje_complete_contrasenia"><![CDATA[È necessario inserire una password…]]></string>
+    <string name="mensaje_complete_repeticion_contrasenia"><![CDATA[È necessario ripetere la password immessa…]]></string>
+    <string name="mensaje_contrasenia_no_coinciden"><![CDATA[Le password non corrispondono…]]></string>
+    <string name="mensaje_contrasenia_registrada_ok"><![CDATA[La password per proteggere le loro categorie è registrato correttamente…]]></string>
+    <string name="mensaje_debe_ingresar_mail"><![CDATA[Inserisci un indirizzo email per inviare la tua password.]]></string>
+    <string name="mensaje_debe_registrar_contrasenia"><![CDATA[Non ancora attivato la protezione delle categorie…]]></string>
+    <string name="mensaje_enviar_contrasenia"><![CDATA[Invia la password all\'account di posta elettronica:]]></string>
+    <string name="mensaje_exito_almacenar_password"><![CDATA[La tua password è stata inviata!]]></string>
+    <string name="mensaje_exito_exportar_csv"><![CDATA[Contatti sono stati salvati con successo.]]></string>
+    <string name="mensaje_exito_exportar_excel">Seleziona formato CSV:</string>
+    <string name="mensaje_exito_importar_csv">Contatti sono stati recuperati con successo.</string>
+    <string name="mensaje_exportando_contactos"><![CDATA[Exporting contacts…]]></string>
+    <string name="mensaje_exportar_contactos"><![CDATA[I tuoi contatti saranno sottoposti a backup (se esiste una copia, sarà sostituita). Vuoi continuare?]]></string>
+    <string name="mensaje_importando_contactos">Importare i contatti…</string>
+    <string name="mensaje_importar_contactos_csv"><![CDATA[Ci sarà il ripristino dell\'ultimo backup eseguito. Vuoi continuare? (Può richiedere diversi secondi …)]]></string>
+    <string name="mensaje_importar_todo_1"><![CDATA[Tutti i nuovi contatti verranno importati come:]]></string>
+    <string name="mensaje_importar_todo_2"><![CDATA[. Contatti esistenti verranno aggiornati (Numeri di telefono, e-mail e indirizzi). Continuare?]]></string>
+    <string name="mensaje_leyenda_registrar_contrasenia"><![CDATA[░ Devi registrare una password per proteggere le tue categorie!]]></string>
+    <string name="mensaje_no_hay_contactos"><![CDATA[Nessun contatto per fare un backup.]]></string>
+    <string name="mensaje_politica_privacidad"><![CDATA[POLITICA SULLA PRIVACY
+
+La presente Informativa sulla privacy stabilisce i termini in base ai quali KN-Contacts utilizza e protegge le informazioni fornite dagli utenti quando utilizza tale applicazione. KN-Apps, che ha sviluppato l\'applicazione KN-Contacts, si impegna a proteggere i dati dei propri utenti. Tutti i dati a cui si accede dal tuo diario dei contatti o dall\'archiviazione del tuo dispositivo verranno effettuati assicurando che vengano utilizzati solo in conformità con i termini di questo documento. Si prega di considerare che la presente Informativa sulla privacy può cambiare nel tempo o essere aggiornata, pertanto si consiglia di rivedere periodicamente questa sezione per assicurarsi di accettare tali modifiche.
+
+Informazioni raccolte e/o archiviate.
+
+KN-Contacts può raccogliere e/o memorizzare i seguenti dati del dispositivo, eseguendo le seguenti azioni:
+
+* Recupera i dati di contatto del registro dei contatti: cognomi, nomi, telefoni, e-mail, indirizzi postali e foto dei contatti.
+* Ottieni immagini di archiviazione,
+* Cattura le immagini usando la fotocamera,
+* Genera e / o recupera i file CSV e JPG.
+
+
+Uso delle informazioni raccolte e / o archiviate
+
+Per caricare le informazioni di contatto, KN-Contacts possono ottenere determinate informazioni dal diario dei contatti del dispositivo, che verrà memorizzato nel tuo spazio riservato e in questo modo consentire l\'accesso, l\'uso e la manipolazione all\'utente di tali informazioni. L\'ottenimento di questi dati sarà preceduto dalla corrispondente richiesta di autorizzazione all\'accesso, con la quale l\'utente deciderà se accedere o meno ai dati dei propri contatti.
+KN-Contacts consente all\'utente di generare e recuperare copie di backup delle informazioni caricate, associare immagini o acquisizioni ai contatti caricati e generare file Excels delle informazioni caricate come elenco. Per questo, KN-Contacts devono accedere all\'archiviazione del dispositivo. Come per i contatti, l\'accesso allo spazio di archiviazione sarà preceduto dalla corrispondente richiesta di autorizzazione di accesso. Per salvare la copia di backup e/o le immagini, l\'applicazione genera una cartella "KN-ContactsLite" nella sua memoria, all\'interno di quella cartella viene trovata la copia di backup che l\'utente può generare, così come le immagini che l\'utente associa a ciascun contatto (nella sottocartella "Pictures").
+Allo stesso modo, nel caso in cui l\'utente lo desideri, l\'applicazione memorizzerà una password e un\'e-mail di backup nella sezione Protezione della categoria. Questi dati verranno utilizzati per consentire o limitare l\'accesso a determinate informazioni all\'interno dell\'applicazione da parte dell\'utente. L\'utente può recuperare la password registrata nel caso in cui non la ricordi generando una mail (con una posta precedentemente registrata) in cui verrà inviata la password.
+KN-Contacts è fortemente impegnata a rispettare l\'impegno di proteggere le tue informazioni.
+
+
+Uso di altre applicazioni
+
+KN-Contacts funziona in combinazione con altre applicazioni installate sul dispositivo, in particolare per l\'invio di e-mail, effettuare chiamate telefoniche, inviare SMS o WhatsApp, posizione geografica, archiviazione di file, acquisizione di immagini e recupero di immagini memorizzate sul dispositivo. Una volta che l\'utente accede a una di queste applicazioni e lascia KN-Contacts, non c\'è più controllo su queste applicazioni a cui l\'utente viene reindirizzato, e quindi KN-Contacts non è responsabile per i termini o la privacy o la protezione dei dati in quegli altri terzi -party applicazioni. Queste applicazioni sono soggette alle loro politiche sulla privacy, quindi è consigliabile controllarle per confermare che siete d\'accordo con loro.
+
+KN-Apps non venderà, trasferirà o distribuirà le informazioni raccolte.
+
+KN-Apps si riserva il diritto di modificare i termini della presente Informativa sulla privacy in qualsiasi momento.]]></string>
+    <string name="mensaje_pregunta_importar_contacto"><![CDATA[I dati del contatto verranno importati dalla Rubrica del telefono (quelli esistenti sono conservati). Vuoi continuare?]]></string>
+    <string name="mensaje_recuerde_generar_backup"><![CDATA[Il backup Lite KN-Contacts è stato ripristinato. Non dimenticare di creare un nuovo backup in questa versione.]]></string>
+    <string name="mensaje_registre_contrasenia"><![CDATA[È necessario registrare una password per proteggere le loro categorie…]]></string>
+    <string name="mensaje_seleccionar_origen_backup"><![CDATA[È stata trovata una copia di backup della versione Lite di KN-Contacts. Seleziona la versione di backup che desideri ripristinare.]]></string>
+    <string name="mensaje_seleccione_actividad_categoria"><![CDATA[Categoria Gestione]]></string>
+    <string name="mensaje_seleccione_categoria_proteger"><![CDATA[Non hai selezionato le categorie a proteggere…]]></string>
+    <string name="mensaje_seleccione_llamada_sms">Seleziona tipo di comunicazione:</string>
+    <string name="mensaje_sin_contactos"><![CDATA[Inizia la registrazione dei contatti da:]]></string>
+    <string name="menu_about_me">Su di me …</string>
+    <string name="menu_agregar_persona">Aggiungi contatto</string>
+    <string name="menu_editar_persona">Edit Contact</string>
+    <string name="menu_exportar_contactos">Generazione di backup</string>
+    <string name="menu_exportar_excel">Esporta in Excel</string>
+    <string name="menu_importar_contactos">Importa contatti</string>
+    <string name="menu_importar_contactos_csv">Ripristina di backup</string>
+    <string name="menu_listar_categoria">Categorie</string>
+    <string name="puntocoma_separated">formato CSV/DSV ( ; )</string>
+    <string name="smesAbr">April</string>
+    <string name="smesAgo">August</string>
+    <string name="smesDic">December</string>
+    <string name="smesEne">January</string>
+    <string name="smesFeb">February</string>
+    <string name="smesJul">July</string>
+    <string name="smesJun">June</string>
+    <string name="smesMar">March</string>
+    <string name="smesMay">May</string>
+    <string name="smesNov">November</string>
+    <string name="smesOct">October</string>
+    <string name="smesSep">September</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_acerca_de">Realizzato da</string>
+    <string name="text_acerca_de_empresa">KN-Apps</string>
+    <string name="text_acerca_de_mail">knapps.mobile@gmail.com</string>
+    <string name="text_acerca_de_sugerencia">Per qualsiasi commento, inviare un messaggio a:</string>
+    <string name="text_sinDatos">SENZA DATI</string>
+    <string name="title_acerca_de">Su di me…</string>
+    <string name="title_alta_contrasenia"><![CDATA[ACCESSO PASSWORD]]></string>
+    <string name="title_capturar_archivo"><![CDATA[DAL FILE]]></string>
+    <string name="title_capturar_foto"><![CDATA[CATTURA]]></string>
+    <string name="title_detallePersona">Dettagli </string>
+    <string name="title_obtener_imagen"><![CDATA[Ottenere Picture]]></string>
+    <string name="title_proteccion_categorias"><![CDATA[PROTEZIONE DELLE CATEGORIE]]></string>
+</resources>
