@@ -20,6 +20,8 @@ android {
         implementation 'com.sun.mail:android-activation:1.6.2'
     }
 
+
+
     buildTypes {
         release {
             minifyEnabled false

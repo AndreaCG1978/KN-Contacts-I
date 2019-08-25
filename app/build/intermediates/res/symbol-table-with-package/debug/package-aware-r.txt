@@ -327,6 +327,7 @@ layout row_item
 layout row_item_alta
 layout row_personas
 layout splash
+mipmap ic_launcher
 string app_lite_name
 string app_name
 string cat_Amigo
