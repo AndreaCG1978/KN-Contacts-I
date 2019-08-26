@@ -83,7 +83,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="paddingPercent" value="5" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -94,8 +94,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="dogEared" value="true" />
-                                      <entry key="imageAsset" value="$USER_HOME$/Escritorio/contacts_icon.png" />
+                                      <entry key="cropped" value="true" />
+                                      <entry key="imageAsset" value="C:\Users\a.grassano.spb\Desktop\contacts_icon.png" />
                                     </map>
                                   </option>
                                 </PersistentState>

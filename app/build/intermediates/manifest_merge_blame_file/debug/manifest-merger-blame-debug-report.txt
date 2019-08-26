@@ -6,214 +6,214 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml
+8-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="27" />
-9-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml
+9-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_CONTACTS" />
-11-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:8:5-71
-11-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:8:22-69
+11-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:8:5-71
+11-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:8:22-69
 12    <uses-permission android:name="android.permission.CALL_PHONE" />
-12-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:9:2-66
-12-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:9:19-63
+12-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:9:2-66
+12-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:9:19-63
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:10:2-64
-13-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:10:19-61
+13-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:10:2-64
+13-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:10:19-61
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:13:2-78
-14-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:13:19-75
+14-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:13:2-78
+14-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:13:19-75
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:14:2-77
-15-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:14:19-74
+15-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:14:2-77
+15-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:14:19-74
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:15:2-61
-16-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:15:19-59
+16-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:15:2-61
+16-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:15:19-59
 17
 18    <uses-feature
-18-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:18:2-19:30
+18-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:18:2-19:30
 19        android:name="android.hardware.telephony"
-19-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:18:16-57
+19-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:18:16-57
 20        android:required="false" />
-20-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:19:3-27
+20-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:19:3-27
 21    <uses-feature
-21-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:20:2-21:29
+21-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:20:2-21:29
 22        android:name="android.hardware.touchscreen"
-22-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:20:16-59
+22-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:20:16-59
 23        android:required="true" />
-23-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:21:3-26
+23-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:21:3-26
 24
 25    <application
-25-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:24:2-107:16
+25-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:24:2-107:16
 26        android:allowBackup="true"
-26-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:29:3-29
+26-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:29:3-29
 27        android:debuggable="true"
 28        android:fullBackupContent="@xml/backup_descriptor"
-28-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:28:3-53
+28-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:28:3-53
 29        android:hardwareAccelerated="false"
-29-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:30:3-38
-30        android:icon="@drawable/contacts_icon"
-30-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:24:15-53
+29-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:30:3-38
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:24:15-49
 31        android:label="@string/app_name"
-31-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:25:3-35
+31-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:25:3-35
 32        android:largeHeap="true"
-32-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:31:3-27
+32-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:31:3-27
 33        android:supportsRtl="true"
-33-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:26:3-29
+33-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:26:3-29
 34        android:testOnly="true" >
 35        <activity
-35-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:36:3-44:14
+35-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:36:3-44:14
 36            android:name="com.boxico.android.kn.kncontacts.InitActivity"
-36-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:36:13-73
+36-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:36:13-73
 37            android:screenOrientation="portrait" >
-37-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:36:74-110
+37-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:36:74-110
 38            <intent-filter>
-38-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:37:4-40:20
+38-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:37:4-40:20
 39                <action android:name="android.intent.action.MAIN" />
-39-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:38:5-57
-39-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:38:13-54
+39-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:38:5-57
+39-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:38:13-54
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:39:5-65
-41-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:39:15-62
+41-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:39:5-65
+41-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:39:15-62
 42            </intent-filter>
 43            <intent-filter>
-43-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:41:4-43:20
+43-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:41:4-43:20
 44                <action android:name="android.permission.READ_CONTACTS" />
-44-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:5-63
-44-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:13-60
+44-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:5-63
+44-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:13-60
 45            </intent-filter>
 46        </activity>
 47        <activity
-47-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:45:3-53:14
+47-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:45:3-53:14
 48            android:name="com.boxico.android.kn.kncontacts.ListadoPersonaActivity"
-48-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:45:13-83
+48-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:45:13-83
 49            android:screenOrientation="portrait" >
-49-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:45:84-120
+49-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:45:84-120
 50            <intent-filter>
-50-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:41:4-43:20
+50-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:41:4-43:20
 51                <action android:name="android.permission.READ_CONTACTS" />
-51-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:5-63
-51-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:13-60
+51-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:5-63
+51-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:13-60
 52            </intent-filter>
 53            <intent-filter>
-53-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:49:4-51:20
+53-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:49:4-51:20
 54                <action android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-54-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:50:5-72
-54-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:50:13-69
+54-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:50:5-72
+54-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:50:13-69
 55            </intent-filter>
 56        </activity>
 57        <activity
-57-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:54:3-61:14
+57-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:54:3-61:14
 58            android:name="com.boxico.android.kn.kncontacts.DetallePersonaActivity"
-58-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:54:13-83
+58-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:54:13-83
 59            android:screenOrientation="portrait" >
-59-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:54:84-120
+59-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:54:84-120
 60            <intent-filter>
-60-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:55:4-57:20
+60-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:55:4-57:20
 61                <action android:name="android.permission.CALL_PHONE" />
-61-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:56:5-60
-61-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:56:13-57
+61-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:56:5-60
+61-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:56:13-57
 62            </intent-filter>
 63            <intent-filter>
-63-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:41:4-43:20
+63-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:41:4-43:20
 64                <action android:name="android.permission.READ_CONTACTS" />
-64-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:5-63
-64-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:13-60
+64-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:5-63
+64-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:13-60
 65            </intent-filter>
 66        </activity>
 67        <activity
-67-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:62:3-63:14
+67-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:62:3-63:14
 68            android:name="com.boxico.android.kn.kncontacts.ListadoCategoriaActivity"
-68-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:62:13-85
+68-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:62:13-85
 69            android:screenOrientation="portrait" >
-69-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:62:86-122
+69-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:62:86-122
 70        </activity>
 71        <activity
-71-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:64:3-67:64
+71-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:64:3-67:64
 72            android:name="com.boxico.android.kn.kncontacts.AltaPersonaActivity"
-72-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:65:4-71
+72-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:65:4-71
 73            android:screenOrientation="portrait"
-73-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:66:4-40
+73-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:66:4-40
 74            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-74-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:67:4-61
+74-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:67:4-61
 75        <activity
-75-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:69:3-70:14
+75-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:69:3-70:14
 76            android:name="com.boxico.android.kn.kncontacts.AboutMeActivity"
-76-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:69:13-76
+76-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:69:13-76
 77            android:screenOrientation="portrait" >
-77-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:69:77-113
+77-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:69:77-113
 78        </activity>
 79        <activity
-79-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:72:3-73:14
+79-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:72:3-73:14
 80            android:name="com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity"
-80-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:72:13-88
+80-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:72:13-88
 81            android:screenOrientation="portrait" >
-81-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:72:89-125
+81-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:72:89-125
 82        </activity>
 83        <activity
-83-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:75:3-76:14
+83-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:75:3-76:14
 84            android:name="com.boxico.android.kn.kncontacts.ActivarContraseniaActivity"
-84-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:75:13-87
+84-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:75:13-87
 85            android:screenOrientation="portrait" >
-85-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:75:88-124
+85-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:75:88-124
 86        </activity>
 87        <activity
-87-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:78:3-85:14
+87-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:78:3-85:14
 88            android:name="com.boxico.android.kn.kncontacts.PhotoActivity"
-88-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:78:13-74
+88-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:78:13-74
 89            android:screenOrientation="portrait" >
-89-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:78:75-111
+89-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:78:75-111
 90            <intent-filter>
-90-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:79:4-81:20
+90-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:79:4-81:20
 91                <action android:name="android.permission.READ_EXTERNAL_STORAGE" />
-91-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:80:5-71
-91-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:80:13-68
+91-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:80:5-71
+91-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:80:13-68
 92            </intent-filter>
 93            <intent-filter>
-93-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:49:4-51:20
+93-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:49:4-51:20
 94                <action android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-94-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:50:5-72
-94-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:50:13-69
+94-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:50:5-72
+94-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:50:13-69
 95            </intent-filter>
 96        </activity>
 97        <activity
-97-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:87:3-92:14
+97-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:87:3-92:14
 98            android:name="com.boxico.android.kn.kncontacts.ImportarContactoActivity"
-98-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:87:13-85
+98-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:87:13-85
 99            android:screenOrientation="portrait"
-99-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:87:86-122
+99-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:87:86-122
 100            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
-100-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:88:4-61
+100-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:88:4-61
 101            <intent-filter>
-101-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:41:4-43:20
+101-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:41:4-43:20
 102                <action android:name="android.permission.READ_CONTACTS" />
-102-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:5-63
-102-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:42:13-60
+102-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:5-63
+102-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:42:13-60
 103            </intent-filter>
 104        </activity>
 105        <activity
-105-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:94:3-95:14
+105-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:94:3-95:14
 106            android:name="com.boxico.android.kn.kncontacts.MenuPersonaActivity"
-106-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:94:13-80
+106-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:94:13-80
 107            android:screenOrientation="portrait" >
-107-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:94:81-117
+107-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:94:81-117
 108        </activity>
 109
 110        <provider
 111            android:name="com.boxico.android.kn.kncontacts.util.GenericFileProvider"
-111-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:98:4-76
+111-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:98:4-76
 112            android:authorities="com.boxico.android.kn.kncontacts.provider"
-112-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:99:4-51
+112-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:99:4-51
 113            android:exported="false"
-113-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:100:4-28
+113-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:100:4-28
 114            android:grantUriPermissions="true" >
-114-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:101:4-38
+114-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:101:4-38
 115            <meta-data
-115-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:102:4-104:45
+115-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:102:4-104:45
 116                android:name="android.support.FILE_PROVIDER_PATHS"
-116-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:103:5-55
+116-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:103:5-55
 117                android:resource="@xml/provider_paths" />
-117-->/home/andrea/AndroidStudioProjects/KN-Contacts-I/app/src/main/AndroidManifest.xml:104:5-43
+117-->C:\Users\a.grassano.spb\ProyectosAndroid\KN-Contacts-I\app\src\main\AndroidManifest.xml:104:5-43
 118        </provider>
 119    </application>
 120
