@@ -61,7 +61,7 @@ public class PhotoActivity extends Activity {
 				capturarImagenDesdeAlmacenamiento();
 			}
 		}
-		if (requestCode == PERMISSIONS_CAMERA) {
+/*		if (requestCode == PERMISSIONS_CAMERA) {
 			if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 				if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
 						&& ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
@@ -70,7 +70,7 @@ public class PhotoActivity extends Activity {
 				}
 				capturarImagenDesdeCamara();
 			}
-		}
+		}*/
 
 
 	}
@@ -83,14 +83,17 @@ public class PhotoActivity extends Activity {
 					public void onClick(DialogInterface dialog, int id) {
 						startFromFileActivity();
 					}
-				})
-				.setNegativeButton(R.string.title_capturar_foto, new DialogInterface.OnClickListener() {
-					public void onClick(DialogInterface dialog, int id) {
-						startCameraActivity();
-					}
 				});
+			/*	.setNegativeButton(R.string., new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						cancel();
+					}
+				});*/
 		builder.show();
 
+	}
+
+	private void cancel() {
 	}
 
 
@@ -117,7 +120,7 @@ public class PhotoActivity extends Activity {
 		Intent i = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 		startActivityForResult(i, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
 	}
-
+/*
 	private void capturarImagenDesdeCamara(){
 
 		String folderName = "temp";
@@ -140,27 +143,7 @@ public class PhotoActivity extends Activity {
 		startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
 
 	}
-
-	private void startCameraActivity() {
-
-		if (Build.VERSION.SDK_INT >= M) {
-			if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
-					|| checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
-					|| checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-				// TODO: Consider calling
-
-				ActivityCompat.requestPermissions(this,
-						new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA},
-						PERMISSIONS_CAMERA);
-			}else{
-				capturarImagenDesdeCamara();
-			}
-		}else{
-			capturarImagenDesdeCamara();
-		}
-
-	}
-
+*/
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		switch (requestCode) {

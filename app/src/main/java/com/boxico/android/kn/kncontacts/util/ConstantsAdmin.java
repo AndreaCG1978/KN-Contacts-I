@@ -1698,7 +1698,8 @@ public class ConstantsAdmin {
 	}
 
 	private static String obtenerPath(String nombreDirectorio){
-		String path = Environment.getExternalStorageDirectory().toString();
+		//String path = Environment.getExternalStorageDirectory().toString();
+		String path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS).toString();
 		return path + File.separator + nombreDirectorio;
 	}
 

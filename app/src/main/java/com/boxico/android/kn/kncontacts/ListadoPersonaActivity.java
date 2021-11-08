@@ -1996,7 +1996,8 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 							dialog.cancel();
 							separadorExcel = ConstantsAdmin.COMA;
 							new ExportCSVEsteticoTask().execute(params);
-							Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath());
+							Uri uri = Uri.parse(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS).getPath());
+							//Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath());
 							Intent intent = new Intent(Intent.ACTION_CREATE_DOCUMENT)
 									.addCategory(Intent.CATEGORY_OPENABLE)
 									.setDataAndType(uri, "text/csv")
@@ -2013,7 +2014,8 @@ public class ListadoPersonaActivity extends ExpandableListFragment implements Mu
 							separadorExcel = ConstantsAdmin.PUNTO_COMA;
 							new ExportCSVEsteticoTask().execute(params);
 
-							Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath());
+							Uri uri = Uri.parse(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS).getPath());
+							//Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath());
 							Intent intent = new Intent(Intent.ACTION_CREATE_DOCUMENT)
 									.addCategory(Intent.CATEGORY_OPENABLE)
 									.setDataAndType(uri, "text/csv")

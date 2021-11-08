@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
     buildToolsVersion "28.0.3"
 
     packagingOptions {
@@ -11,13 +11,15 @@ android {
     defaultConfig {
         applicationId "com.boxico.android.kn.kncontacts"
         minSdkVersion 19
-        targetSdkVersion 27
+        targetSdkVersion 29
     }
 
     dependencies {
-        implementation 'com.android.support:support-v4:27.1.1'
         implementation 'com.sun.mail:android-mail:1.6.2'
         implementation 'com.sun.mail:android-activation:1.6.2'
+        //noinspection GradleCompatible
+        implementation 'com.android.support:support-v4:27.1.1'
+
     }
 
 
@@ -29,4 +31,5 @@ android {
         }
     }
 }
+
 
