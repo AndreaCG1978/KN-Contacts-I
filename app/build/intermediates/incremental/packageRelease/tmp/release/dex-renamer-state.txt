@@ -1,0 +1,4 @@
+#Mon Nov 08 19:00:10 ART 2021
+base.0=/home/andrea/StudioProjects/KN-Contacts-I/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

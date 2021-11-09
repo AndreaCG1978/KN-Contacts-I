@@ -1,0 +1,202 @@
+com/boxico/android/kn/kncontacts/util/KNSimpleCustomAdapter.java
+ com.boxico.android.kn.kncontacts.util.KNSimpleCustomAdapter
+ com.boxico.android.kn.kncontacts.util.KNSimpleCustomAdapter$1
+ com.boxico.android.kn.kncontacts.util.KNSimpleCustomAdapter$2
+com/boxico/android/kn/kncontacts/persistencia/DataBaseManager.java
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$1
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$10
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$11
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$12
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$13
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$14
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$15
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$16
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$17
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$18
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$2
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$3
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$4
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$5
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$6
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$7
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$8
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseManager$9
+com/boxico/android/kn/kncontacts/util/KNSimpleCursorAdapter.java
+ com.boxico.android.kn.kncontacts.util.KNSimpleCursorAdapter
+ com.boxico.android.kn.kncontacts.util.KNSimpleCursorAdapter$1
+com/boxico/android/kn/kncontacts/DetallePersonaActivity.java
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$1
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$10
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$11
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$11$1
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$11$2
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$12
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$13
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$14
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$15
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$16
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$17
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$18
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$19
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$2
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$3
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$4
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$5
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$6
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$7
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$8
+ com.boxico.android.kn.kncontacts.DetallePersonaActivity$9
+com/boxico/android/kn/kncontacts/AltaPersonaActivity.java
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$1
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$10
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$11
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$12
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$13
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$14
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$15
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$16
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$17
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$18
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$18$1
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$19
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$2
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$3
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$4
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$5
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$6
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$7
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$8
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$9
+ com.boxico.android.kn.kncontacts.AltaPersonaActivity$seleccionSpinnerListener
+com/boxico/android/kn/kncontacts/MenuPersonaActivity.java
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$1
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$2
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$3
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$4
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$5
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$6
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$7
+ com.boxico.android.kn.kncontacts.MenuPersonaActivity$8
+com/boxico/android/kn/kncontacts/ListadoPersonaActivity.java
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$1
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$10
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$11
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$12
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$13
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$14
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$15
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$16
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$17
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$18
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$19
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$2
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$20
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$21
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$22
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$23
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$24
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$3
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$3$1
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$3$2
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$4
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$5
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$6
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$7
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$8
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$9
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$ExportCSVEsteticoTask
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$ExportCSVTask
+ com.boxico.android.kn.kncontacts.ListadoPersonaActivity$ImportCSVTask
+com/boxico/android/kn/kncontacts/ActivarContraseniaActivity.java
+ com.boxico.android.kn.kncontacts.ActivarContraseniaActivity
+ com.boxico.android.kn.kncontacts.ActivarContraseniaActivity$1
+ com.boxico.android.kn.kncontacts.ActivarContraseniaActivity$2
+com/boxico/android/kn/kncontacts/util/KNMail.java
+ com.boxico.android.kn.kncontacts.util.KNMail
+com/boxico/android/kn/kncontacts/persistencia/dtos/ConfigDTO.java
+ com.boxico.android.kn.kncontacts.persistencia.dtos.ConfigDTO
+com/boxico/android/kn/kncontacts/PhotoActivity.java
+ com.boxico.android.kn.kncontacts.PhotoActivity
+ com.boxico.android.kn.kncontacts.PhotoActivity$1
+com/boxico/android/kn/kncontacts/util/GenericFileProvider.java
+ com.boxico.android.kn.kncontacts.util.GenericFileProvider
+com/boxico/android/kn/kncontacts/ProteccionCategoriaActivity.java
+ com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity
+ com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity$1
+ com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity$2
+ com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity$2$1
+ com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity$2$2
+ com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity$3
+ com.boxico.android.kn.kncontacts.ProteccionCategoriaActivity$SendMail
+com/boxico/android/kn/kncontacts/util/KNCategoryListAdapter.java
+ com.boxico.android.kn.kncontacts.util.KNCategoryListAdapter
+ com.boxico.android.kn.kncontacts.util.KNCategoryListAdapter$1
+ com.boxico.android.kn.kncontacts.util.KNCategoryListAdapter$2
+ com.boxico.android.kn.kncontacts.util.KNCategoryListAdapter$3
+ com.boxico.android.kn.kncontacts.util.KNCategoryListAdapter$4
+ com.boxico.android.kn.kncontacts.util.KNCategoryListAdapter$5
+com/boxico/android/kn/kncontacts/persistencia/dtos/TipoValorDTO.java
+ com.boxico.android.kn.kncontacts.persistencia.dtos.TipoValorDTO
+com/boxico/android/kn/kncontacts/util/KNSimpleCustomDetailsAdapter.java
+ com.boxico.android.kn.kncontacts.util.KNSimpleCustomDetailsAdapter
+com/boxico/android/kn/kncontacts/util/KNListFragment.java
+ com.boxico.android.kn.kncontacts.util.KNListFragment
+ com.boxico.android.kn.kncontacts.util.KNListFragment$1
+ com.boxico.android.kn.kncontacts.util.KNListFragment$2
+com/boxico/android/kn/kncontacts/util/MultiSpinner.java
+ com.boxico.android.kn.kncontacts.util.MultiSpinner
+ com.boxico.android.kn.kncontacts.util.MultiSpinner$1
+ com.boxico.android.kn.kncontacts.util.MultiSpinner$MultiSpinnerListener
+com/boxico/android/kn/kncontacts/persistencia/DataBaseHelper.java
+ com.boxico.android.kn.kncontacts.persistencia.DataBaseHelper
+com/boxico/android/kn/kncontacts/util/Asociacion.java
+ com.boxico.android.kn.kncontacts.util.Asociacion
+com/boxico/android/kn/kncontacts/ImportarContactoActivity.java
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$1
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$2
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$3
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$4
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$5
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$6
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$7
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$8
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$9
+ com.boxico.android.kn.kncontacts.ImportarContactoActivity$ImportContactTask
+com/boxico/android/kn/kncontacts/InitActivity.java
+ com.boxico.android.kn.kncontacts.InitActivity
+ com.boxico.android.kn.kncontacts.InitActivity$1
+com/boxico/android/kn/kncontacts/persistencia/dtos/CategoriaDTO.java
+ com.boxico.android.kn.kncontacts.persistencia.dtos.CategoriaDTO
+com/boxico/android/kn/kncontacts/persistencia/dtos/PersonaDTO.java
+ com.boxico.android.kn.kncontacts.persistencia.dtos.PersonaDTO
+com/boxico/android/kn/kncontacts/util/ConstantsAdmin.java
+ com.boxico.android.kn.kncontacts.util.ConstantsAdmin
+ com.boxico.android.kn.kncontacts.util.ConstantsAdmin$1
+ com.boxico.android.kn.kncontacts.util.ConstantsAdmin$2
+com/boxico/android/kn/kncontacts/AboutMeActivity.java
+ com.boxico.android.kn.kncontacts.AboutMeActivity
+ com.boxico.android.kn.kncontacts.AboutMeActivity$1
+ com.boxico.android.kn.kncontacts.AboutMeActivity$2
+ com.boxico.android.kn.kncontacts.AboutMeActivity$2$1
+com/boxico/android/kn/kncontacts/persistencia/dtos/ContraseniaDTO.java
+ com.boxico.android.kn.kncontacts.persistencia.dtos.ContraseniaDTO
+com/boxico/android/kn/kncontacts/util/ExpandableListFragment.java
+ com.boxico.android.kn.kncontacts.util.ExpandableListFragment
+ com.boxico.android.kn.kncontacts.util.ExpandableListFragment$1
+ com.boxico.android.kn.kncontacts.util.ExpandableListFragment$2
+com/boxico/android/kn/kncontacts/BuildConfig.java
+ com.boxico.android.kn.kncontacts.BuildConfig
+com/boxico/android/kn/kncontacts/util/KNCategoryProtectionAdapter.java
+ com.boxico.android.kn.kncontacts.util.KNCategoryProtectionAdapter
+ com.boxico.android.kn.kncontacts.util.KNCategoryProtectionAdapter$1
+com/boxico/android/kn/kncontacts/ListadoCategoriaActivity.java
+ com.boxico.android.kn.kncontacts.ListadoCategoriaActivity
+ com.boxico.android.kn.kncontacts.ListadoCategoriaActivity$1
+ com.boxico.android.kn.kncontacts.ListadoCategoriaActivity$2
+ com.boxico.android.kn.kncontacts.ListadoCategoriaActivity$3
