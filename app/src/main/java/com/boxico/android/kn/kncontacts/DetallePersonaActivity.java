@@ -13,9 +13,11 @@ import java.util.Locale;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.content.ContentUris;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -26,6 +28,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.provider.Telephony;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -960,11 +963,28 @@ public class DetallePersonaActivity extends FragmentActivity implements LoaderMa
 		}
 	}
 
+	public static String getDefaultSmsAppPackageName(@NonNull Context context) {
+		String defaultSmsPackageName;
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+			defaultSmsPackageName = Telephony.Sms.getDefaultSmsPackage(context);
+			return defaultSmsPackageName;
+		} else {
+			Intent intent = new Intent(Intent.ACTION_VIEW)
+					.addCategory(Intent.CATEGORY_DEFAULT).setType("vnd.android-dir/mms-sms");
+			final List<ResolveInfo> resolveInfos = context.getPackageManager().queryIntentActivities(intent, 0);
+			if (resolveInfos != null && !resolveInfos.isEmpty())
+				return resolveInfos.get(0).activityInfo.packageName;
+
+		}
+		return null;
+	}
+
 	private void enviarSMS(String tel) {
 
 
 
 		try {
+
 			Intent smsIntent = new Intent(Intent.ACTION_VIEW);
 			smsIntent.setType("vnd.android-dir/mms-sms");
 			smsIntent.putExtra("address", tel);
@@ -972,7 +992,16 @@ public class DetallePersonaActivity extends FragmentActivity implements LoaderMa
 			startActivity(smsIntent);
 
 		} catch (Exception e) {
-			ConstantsAdmin.mostrarMensaje(this, getString(R.string.errorMandarMensaje));
+			if (getDefaultSmsAppPackageName(this) != null) {
+				Intent intent = new Intent(Intent.ACTION_SENDTO);
+				intent.setData(Uri.parse("smsto:" + Uri.encode(tel)));
+				startActivity(intent);
+				/*Uri smsUri=  Uri.parse("smsto:" + tel);
+				Intent intent = new Intent(Intent.ACTION_VIEW, smsUri);
+				intent.putExtra("sms_body", "sms text");
+				intent.setType("vnd.android-dir/mms-sms");
+				startActivity(intent);*/
+			}
 		}
 
 

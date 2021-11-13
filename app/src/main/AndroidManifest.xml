@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
-	package="com.boxico.android.kn.kncontacts" android:versionCode="2"
+	package="com.boxico.android.kn.kncontacts" android:versionCode="3"
 	android:versionName="1.0">
 
 
@@ -28,6 +28,7 @@
 		android:fullBackupContent="@xml/backup_descriptor"
 		android:allowBackup="true"
 		android:hardwareAccelerated="false"
+		android:requestLegacyExternalStorage="true"
 		android:largeHeap="true"
 		>
 
